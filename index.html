@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" href="./css/styles.css">
+	</head>
+	<body class="page">
+		<div class="content">
+			<div class="content__block1 block1">
+				<div class="overlay"></div>
+		    </div>
+			<div class="content__block2 block2">
+				<div class="content__block2__header header">
+					<h1 class="header__h1">Please sign in to proceed</h1>
+					<p class="header__sign">To sign in, use the pin received during attestation or use QR in your mobile phone</p>
+				</div>
+				<form class="content__block2__form form">
+					<div class="form__item1">
+						<img src="./images/qr.png" class="form__item1__img" alt="">
+					</div>
+					<div class="form__item2">
+						<p>Enter your PIN</p>
+						<input type="text" class="form__item2__enter" maxlength="5" required>
+					</div>
+					<div class="form__item3">
+					    <input type="checkbox" class="form__item3__checkbox">
+					    <label for="checkbox"> - Remember my attestation</label>
+					    <p class="form__item3__use">Use a cookie to remember me. This content is for persons of legal drinking age. do not check this box if you use a shared computer. this site uses cookies.</p>
+				    </div>
+					<div class="form__item4">
+						<button type="submit" class="form__item4__button">Submit</button>
+					</div>
+				</form>
+			</div>				
+		</div>
+	</body>
+</html>
